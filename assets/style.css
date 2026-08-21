@@ -2693,11 +2693,11 @@ ul.loc-locs li i {
 }
 
 .areas-section h3 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #222;
-    margin: 35px 0 20px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  margin: 35px 0 20px;
+  text-align: center;
 }
 
 .areas-section p {
@@ -2802,4 +2802,18 @@ ul.loc-locs li i {
     grid-template-columns: 1fr;
   }
 
+}
+
+.inner-content ul li {
+  margin-bottom: 15px;
+  list-style: circle;
+  color: #757575;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+}
+
+.inner-content ul {
+  padding-left: 20px;
 }
