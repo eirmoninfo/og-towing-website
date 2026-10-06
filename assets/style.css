@@ -2202,6 +2202,72 @@ section.location-inner .location-img-box .left-img img {
   border-radius: 20px;
 }
 
+/* Shared layout for every location detail page. */
+.location-layout > .location-main,
+.location-layout > .location-sidebar {
+  min-width: 0;
+}
+
+.location-inner .left-img img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.location-inner .item-text h2 {
+  margin: 24px 0 12px;
+  color: #f07426;
+  font-size: clamp(21px, 2.2vw, 25px);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: .5px;
+}
+
+.location-inner .item-text h2.location-title {
+  margin-top: 20px;
+  font-size: clamp(25px, 2.6vw, 29px);
+}
+
+.location-inner .loc-faq-section > h2 {
+  margin-bottom: 20px;
+  color: #2a3259;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.location-inner .faq-item h3 {
+  margin: 0 0 8px;
+  color: #2a3259;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.location-inner .faq-item p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.location-sidebar .panel,
+.location-sidebar .about-formm {
+  padding: clamp(16px, 2vw, 28px);
+}
+
+.location-sidebar .loc-sidebar-list .label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 767.98px) {
+  .location-inner .item-content .item-info .item-text p,
+  .location-inner ul.loc-locs {
+    text-align: left;
+  }
+}
+
 .item-content .item-info .item-text h3 {
   transition: all 0.4s;
   margin-top: 20px;
